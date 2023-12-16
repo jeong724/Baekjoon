@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
     int N;
     scanf("%d", &N);
@@ -8,7 +7,7 @@ int main(){
     int i = 0;
     int result = 0;
     int num = 0;
-    scanf("%s", &str);
+    scanf("%s", str);
     while(i<N){
         num = str[i] -'0';
         result = result + num;
