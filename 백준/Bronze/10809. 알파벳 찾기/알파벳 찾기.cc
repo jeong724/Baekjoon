@@ -17,9 +17,6 @@ int main() {
         if (alphabet[index] == -1) {
             alphabet[index] = i;
         }
-        else {
-            continue;
-        }
     }
     
     for (int i = 0; i < 26; i++) {
