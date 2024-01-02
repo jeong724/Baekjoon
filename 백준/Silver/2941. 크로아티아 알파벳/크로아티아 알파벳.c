@@ -19,7 +19,7 @@ int main(){
         }
         if(str[i] == 'd'){
             if(str[i+1]=='z' && str[i+2] == '=')
-                num=num+1;
+                num+=1;
             if(str[i+1]=='-')
                 num++;
         }
